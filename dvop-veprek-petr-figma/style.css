@@ -1,0 +1,752 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* width: 100%;
+  height: 100vh; */
+  background-color: #ff8482;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.header-flex {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+}
+.header-main {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+}
+.header-main-text {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  font-size: 16px;
+}
+.header-sign {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+}
+.header-sign button {
+  border-radius: 3px;
+  padding: 15px 60px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+}
+.page1 {
+  width: 80%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+.page1-left {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page1-left h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+.page1-left h1 {
+  font-family: Alfa Slab One;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  color: white;
+}
+.page1-signup {
+  width: 70%;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.page1-signup input {
+  width: 50%;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.page1-signup button {
+  border-radius: 3px;
+  border: 2px solid #2b2b2b;
+  background: #fff;
+  padding: 10px 60px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: black;
+  background-color: #fff;
+}
+.page1-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page1-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2 {
+  width: 100%;
+  height: 800px;
+  background-color: #fff2dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page2-wrap {
+  width: 80%;
+  height: 800px;
+  background-color: #fff2dd;
+  display: flex;
+  flex-direction: row;
+}
+.page2-left {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page2-textbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.page2-textbox h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #be6361;
+  margin-bottom: 20px;
+}
+.page2-textbox h2 {
+  font-family: Alfa Slab One;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  color: #333333;
+}
+.page2-textbox ul {
+  margin-left: 1%;
+  list-style: none;
+  margin-top: 35px;
+}
+.page2-textbox li {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.page2-textbox p {
+  margin-left: 5%;
+}
+.page2-textbox button {
+  color: #be6361;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  background: transparent;
+  border-radius: 3px;
+  border: 1px solid #be636164;
+  padding: 10px 20px;
+  width: 30%;
+  margin-top: 40px;
+}
+.page2-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page3 {
+  width: 100%;
+  height: 450px;
+  background: url(./img/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.page3 h2 {
+  font-family: Alfa Slab One;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  color: white;
+}
+.page3 h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 30px;
+}
+.page3 button {
+  margin-top: 5%;
+  color: #2b2b2b;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 3px;
+  border: 2px solid #2b2b2b;
+  background: #fff;
+  padding: 10px 50px;
+}
+.page3-textbox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page4 {
+  width: 100%;
+  height: 800px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.page4-wrap {
+  width: 80%;
+  height: 800px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+.page4-left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page4-right h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #be6361;
+  margin-bottom: 25px;
+}
+.page4-right h2 {
+  font-family: Alfa Slab One;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  color: #333333;
+}
+.page4-right ul {
+  margin-top: 50px;
+  list-style: none;
+  width: 80%;
+}
+.page4-right li {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.page4-right p {
+  margin-left: 5%;
+}
+.page4-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.page5 {
+  width: 100%;
+  height: 800px;
+  background-color: #fff2dd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.page5-wrap {
+  width: 80%;
+  height: 800px;
+  background-color: #fff2dd;
+}
+.page5-toptext {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 25%;
+}
+.page5-toptext h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #be6361;
+}
+.page5-toptext h2 {
+  font-family: Alfa Slab One;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  color: #333333;
+}
+.page5-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 60%;
+}
+.page5-card1 {
+  height: 90%;
+  width: 30%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.page5-card1-wrap {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+.page5-card1-toptext {
+  display: flex;
+  flex-direction: row;
+}
+.page5-card1-text {
+  width: 50%;
+}
+.page5-card1-price {
+  width: 50%;
+  justify-content: flex-end;
+  display: flex;
+}
+.page5-card1 ul {
+  margin-top: 15px;
+}
+.page5-card1 h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #be6361;
+}
+.page5-card1 h3 {
+  font-family: Alfa Slab One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.page5-card1 h1 {
+  font-family: Alfa Slab One;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+.page5-card1 li {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.page5-card1 p {
+  margin-left: 5%;
+}
+.page5-card1-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.page5-card1 button {
+  border-radius: 3px;
+  border: 1px solid #be636164;
+  color: #be6361;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px 60px;
+  background: transparent;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.page5-card2 {
+  height: 90%;
+  width: 30%;
+  background-color: #be6361;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #a15352;
+  background: #be6361;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.page5-card2-wrap {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+.page5-card2-toptext {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+.page5-card2-text {
+  width: 50%;
+}
+.page5-card2-price {
+  width: 50%;
+  justify-content: flex-end;
+  display: flex;
+}
+.page5-card2 ul {
+  margin-top: 15px;
+}
+.page5-card2 h5 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+.page5-card2 h3 {
+  font-family: Alfa Slab One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.page5-card2 h1 {
+  font-family: Alfa Slab One;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+.page5-card2 li {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+  color: #ffffff;
+}
+.page5-card2 p {
+  margin-left: 5%;
+}
+.page5-card2-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.page5-card2 button {
+  border-radius: 3px;
+  border: 2px solid #2b2b2b;
+  background: #fff;
+  color: #2b2b2b;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px 60px;
+  width: 50%;
+  margin-top: 25px;
+}
+.page5-bottext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.page6 {
+  width: 100%;
+  height: 90vh;
+  background-color: #be6361;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.page6-wrap {
+  width: 80%;
+  height: 100%;
+}
+.page6-toptext {
+  display: flex;
+  justify-content: center;
+  height: 25%;
+  align-items: center;
+}
+.page6-toptext h2 {
+  font-family: Alfa Slab One;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  color: #ffffff;
+}
+.page6-cards {
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+}
+.page6-card1 {
+  background-color: #e5e5e5;
+  height: 45%;
+  width: 30%;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.page6-card1-img {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page6-card1-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 60%;
+}
+.page6-card1-text h4 {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.page6-card1-text p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(51, 51, 51, 0.5);
+}
+.page6-card2-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 60%;
+}
+.page6-card2-text h4 {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.page6-card2-text p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+}
+.page6-bot-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40%;
+}
+.page6-bot-left {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+}
+.page6-left-logo {
+  font-family: Alfa Slab One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  color: #ffffff;
+}
+.page6-left-text {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+  width: 70%;
+}
+.page6-left-social {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+}
+.page6-bot-right {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.page6-bot-right ul {
+  list-style: none;
+}
+
+.page6-li-main {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 40%;
+}
+.page6-li {
+  margin-bottom: 10%;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a85756;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
